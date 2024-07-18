@@ -1,0 +1,127 @@
+header {
+  background-color: gainsboro;
+}
+
+.navbar {
+  ul {
+    display: flex;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+
+    li:last-child {
+      margin-left: auto;
+      position: relative;
+    }
+  }
+
+  .cart-count {
+    position: absolute;
+    border-radius: 50%;
+    font-size: 1rem;
+    background-color: rgb(255, 11, 11);
+    min-width: 10px;
+    min-height: 10px;
+    padding: 0.2em 0.6em;
+    display: grid;
+    place-items: center;
+    left: 220%;
+    bottom: 80%;
+  }
+
+  .header_title {
+    background-color:#08993A;
+  }
+
+  .header_text {
+    margin-left: 50px;
+    padding-top: 5px;
+  }
+
+  a,
+  a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  a.activeLink {
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+
+  .header_img {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    background-color:#0D2613;
+    padding-bottom: 20px;
+  }
+  .GG_svg {
+    width: 60px;
+    margin-left: 20px;
+    padding-top: 7px;
+  }
+
+  .phone_svg {
+    width: 200px;
+    margin-left: 32px;
+  }
+
+  .text_svg {
+    width: 320px;
+    margin-left: 210px;
+  }
+
+  .green_svg {
+    width: 10px;
+    margin-left: 25px;
+  }
+
+  .Shop_svg {
+    width: 100px;
+    margin-left: 25px;
+    padding-top: 10px;
+  }
+
+  .england_svg {
+    width: 300px;
+    margin-left: 250px;
+    padding-bottom: 5px;
+  }
+
+  .GameGeek {
+    width: 189px;
+    height: 30px;
+    margin-bottom: 3px;
+    margin-left: 30px;
+    margin-right: 155px;
+  }
+
+  .header_svg {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    gap: 80%;
+  }
+
+  .search_svg {
+    width: 20px;
+    margin-bottom: 2px;
+  }
+
+  .user_svg {
+    width: 20px;
+    margin-bottom: 2px;
+  }
+
+  .header_cart {
+    position: relative;
+    right: 110px;
+    top: 6px;
+  }
+
+  .header_shop {
+    color:#fff;
+    font-size: 20px;
+    width: 5px;
+  }
+}
